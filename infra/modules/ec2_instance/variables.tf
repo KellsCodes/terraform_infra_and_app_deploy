@@ -8,8 +8,12 @@ variable "instance_type_value" {
   type        = string
 }
 
-variable "subnet_id_value" {
-  description = "The subnet ID to use for the EC2 instance"
-  type        = string
+# variable "subnet_id_value" {
+#   description = "The subnet ID to use for the EC2 instance"
+#   type        = string
+# }
 
+variable "cidr_value" {
+  description = "The CIDR block for the VPC"
+  type        = string
 }
